@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AffairesSansRisques</title>
+    <script src="index.js" ></script>
+    <script></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4564ca;
+            color: #000000;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #7f9bd6;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            height: 900px;;
+            
+           
+           
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            flex-direction: column;
+            text-align:left ;
+        }
+
+        nav li {
+            display: inline;
+            margin-top: 20%;
+            margin-right: 20px;
+            margin-left: 10px;
+          
+        }
+        nav li a{
+            color:black;
+            text-decoration: none;
+          
+        }
+ #container{
+    display: flex;
+ }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #AA {
+            text-align: center;
+            
+        }
+        #AA a{
+            color: white;
+        }
+    </style>
+</head>
+<body onload=" displayWelcomeMessage()">
+    <header>
+        <h1>AffairesSansRisques</h1>
+    </header>
+    <div id="container">
+    <nav>
+        <ul>
+            <li id="AA"><a href="#" >Menu</a></li>
+            <li><a href="#" onclick="displayAnnonces()">Consulter nos annonces</a></li>
+            <li><a href="#" onclick="Annonces()">Diffuser une annonce</a></li>
+            <li><a href="#" onclick="amnistrer()">Administrer les annonces</a></li>
+            <li><a href="#">Qui sommes-nous ?</a></li>
+        </ul>
+    </nav>
+    <div class="content" id="contentArea">
+    
+   
+        
+    </div>
+    </div>
+    
+  
+ 
+      
+</body>
+</html>
